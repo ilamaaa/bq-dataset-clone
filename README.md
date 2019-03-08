@@ -16,7 +16,7 @@ https://stackoverflow.com/questions/35479025/cross-project-management-using-serv
 
 
 **Workflow**
-- In FROM_PROJECT, get datasets in migration scope
+- Under FROM_PROJECT, get datasets in migration scope
 - Extract all tables under these datasets to a Google Cloud Storage bucket (FROM_BUCKET)
 - Transfer these tables into a Google Cloud Storage bucket in another location (TO_BUCKET)
 - Load these tables to a different BigQuery project (TO_PROJECT)
