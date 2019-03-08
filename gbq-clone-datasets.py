@@ -29,8 +29,8 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "service_account.json" # TODO: se
 
 FROM_PROJECT = ''  # TODO: set this to your project name
 FROM_LOCATION = ''  # TODO: set this to the BigQuery location
-FROM_BUCKET = ''  # TODO: set to bucket name in same location,
-TO_PROJECT = ''
+FROM_BUCKET = ''  # TODO: set to bucket name in same location
+TO_PROJECT = ''  # TODO: set to destination project ID, could be in different location
 TO_LOCATION = ''  # TODO: set this to the destination BigQuery location
 TO_BUCKET = ''  # TODO: set to bucket name in destination loc
 
