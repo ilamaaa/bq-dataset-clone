@@ -15,8 +15,8 @@ https://stackoverflow.com/questions/35479025/cross-project-management-using-serv
 - Update all the TODOs in the script
 
 
-**Workflow**
+**Flow**
 - Under FROM_PROJECT, get datasets in migration scope
-- Extract all tables under these datasets to a Google Cloud Storage bucket (FROM_BUCKET)
-- Transfer these tables into a Google Cloud Storage bucket in another location (TO_BUCKET)
-- Load these tables to a different BigQuery project (TO_PROJECT)
+- For each one of the above datasets, extract all the BigQuery tables into a Cloud Storage bucket in the same region as the tables. (Recommend Avro format for best fidelity in data types and fastest loading speed.)
+- Run a storage transfer job to copy the extracted files from the starting location bucket to a bucket in the destination location (TO_BUCKET).
+- Load all the files into a BigQuery dataset located in the destination location under TO_PROJECT.
