@@ -1,4 +1,7 @@
 # bq-dataset-clone
+
+Clone BigQuery datasets to a different project in different location
+
 _Modified from @tswast's answer to
 https://stackoverflow.com/questions/32767245/how-to-best-handle-data-stored-in-different-locations-in-google-bigquery_
 
