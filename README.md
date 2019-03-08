@@ -1,23 +1,21 @@
 # bq-dataset-clone
-**Modified from @tswast's answer to**
-https://stackoverflow.com/questions/32767245/how-to-best-handle-data-stored-in-different-locations-in-google-bigquery
+_Modified from @tswast's answer to
+https://stackoverflow.com/questions/32767245/how-to-best-handle-data-stored-in-different-locations-in-google-bigquery_
 
-# Copyright 2018 Google LLC
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     https://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
+Copyright 2018 Google LLC
 
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-clones BigQuery dataset(s) to a different project in different location.
+    https://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
 
 **Setup**
 - GCloud Authentication
